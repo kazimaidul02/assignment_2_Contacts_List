@@ -67,11 +67,10 @@ class _HomeState extends State<Home> {
               TextButton(
                   onPressed: (){
                     setState(() {
-                      _name.removeAt(index);
-                      _number.removeAt(index);
+                      _removeItem(index);
                     });
                     Navigator.pop(context);
-                  }, child: Text("Delet"),
+                  }, child: Text("Delete"),
               ),
             ],
           );
