@@ -102,7 +102,9 @@ class _HomeState extends State<Home> {
                   ),
                 ),
               ),
+
             SizedBox(height: 10,),
+
             TextField(
               controller: _numberController,
               keyboardType: TextInputType.number,
@@ -139,11 +141,8 @@ class _HomeState extends State<Home> {
                           },
                       ),
                     );
-
-
                   }),
             )
-
           ],
         ),
       ) ,
